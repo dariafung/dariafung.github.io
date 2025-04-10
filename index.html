@@ -7,34 +7,34 @@
   <title>Daria Feng</title>
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap" rel="stylesheet" />
   <style>
-  body {
+   body {
     font-family: 'Source Sans 3', sans-serif;
     font-size: 16px;
     color: #111;
     margin: 40px auto;
     max-width: 1000px;
     padding: 0 20px;
-    line-height: 1.6; 
+    line-height: 1.6;
   }
-
-  .container {
+  
+  .intro-section {
     display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
+    align-items: center;
     gap: 30px;
+    flex-wrap: wrap;
   }
-
-  .content {
+  
+  .intro-text {
     flex: 1 1 60%;
     min-width: 300px;
   }
-
+  
   h1 {
     font-size: 36px;
     font-weight: 300;
     margin-bottom: 10px;
   }
-
+  
   h2 {
     font-size: 22px;
     font-weight: normal;
@@ -43,55 +43,44 @@
     border: none;
     padding-bottom: 0;
   }
-
+  
   a {
     color: #1a0dab;
     text-decoration: none;
   }
-
+  
   a:hover {
     text-decoration: underline;
   }
-
+  
   .photo {
     flex: 0 0 auto;
     text-align: center;
   }
-
+  
   img {
     width: 180px;
     height: auto;
+    vertical-align: middle;
   }
-
+  
   .links {
     margin-top: 12px;
     font-size: 15px;
   }
+  
 </style>
-
+  
 </head>
 <body>
-  <div class="container">
-    <div class="content">
+  <div class="intro-section">
+    <div class="intro-text">
       <h1>Daria Feng</h1>
       <p>
         I am a junior student in Computer Science at the University of Wisconsin–Madison.
         My research interests include deep learning, emotional expression in neural models,
         and interpretability. I am currently working on a research project using probing
         techniques to analyze emotional representations in large language models.
-      </p>
-
-      <h2 id="research">Research</h2>
-      <p>
-        My current project focuses on probing the emotional representations in large language models
-        using diagnostic classifiers. The goal is to understand how emotion is encoded in intermediate
-        representations, and how it evolves across layers.
-      </p>
-
-      <h2 id="courses">Courses</h2>
-      <p>
-        I have taken courses in Artificial Intelligence, Deep Learning, and Computer Vision. I’m
-        especially interested in representation learning and multimodal fusion.
       </p>
     </div>
 
@@ -104,5 +93,19 @@
       </div>
     </div>
   </div>
+
+  <h2 id="research">Research</h2>
+  <p>
+    My current project focuses on probing the emotional representations in large language models
+    using diagnostic classifiers. The goal is to understand how emotion is encoded in intermediate
+    representations, and how it evolves across layers.
+  </p>
+
+  <h2 id="courses">Courses</h2>
+  <p>
+    I have taken courses in Artificial Intelligence, Deep Learning, and Computer Vision. I’m
+    especially interested in representation learning and multimodal fusion.
+  </p>
 </body>
+
 </html>
