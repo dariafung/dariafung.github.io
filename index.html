@@ -5,47 +5,60 @@
   <title>Daria Fung</title>
   <style>
     body {
-      font-family: "Georgia", serif;
-      max-width: 800px;
+      font-family: Helvetica, sans-serif;
+      max-width: 900px;
       margin: 40px auto;
       padding: 0 20px;
       line-height: 1.6;
+      color: #000;
     }
-    header {
+    img {
+      float: right;
+      margin-left: 30px;
+      width: 180px;
+      border-radius: 10px;
+    }
+    h1 {
+      font-size: 32px;
+    }
+    h2 {
+      font-size: 24px;
+      margin-top: 40px;
       border-bottom: 1px solid #ccc;
-      padding-bottom: 10px;
-      margin-bottom: 20px;
     }
-    nav a {
-      margin-right: 15px;
-      text-decoration: none;
+    a {
       color: #0366d6;
+      text-decoration: none;
     }
-    section {
-      margin-bottom: 40px;
-    }
-    h1, h2 {
-      font-weight: normal;
+    a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>Daria Fung</h1>
-    <nav>
-      <a href="#research">Research</a>
-      <a href="#courses">Course</a>
-    </nav>
-  </header>
+  <h1>Daria Feng</h1>
+  <img src="profile.jpg" alt="profile photo" />
+  <p>
+    I am a junior student in Computer Science at the University of Wisconsin–Madison.
+    My research interests include deep learning, emotional expression in neural models,
+    and interpretability. I am currently working on a research project using probing
+    techniques to analyze emotional representations in large language models.
+    <br />
+    Feel free to reach out via <a href="mailto:your_email@example.com">email</a> or find me on
+    <a href="#">CV</a> / <a href="#">GitHub</a> / <a href="#">Google Scholar</a>
+  </p>
 
-  <section id="research">
-    <h2>Research</h2>
-    <p>I am a junior Computer Science student interested in deep learning, emotional expression, and neural networks. My current project explores using probes to analyze emotional representations in large models.</p>
-  </section>
+  <h2 id="research">Research</h2>
+  <p>
+    My current project focuses on probing the emotional representations in large language models
+    using diagnostic classifiers. The goal is to understand how emotion is encoded in intermediate
+    representations, and how it evolves across layers.
+  </p>
 
-  <section id="courses">
-    <h2>Course</h2>
-    <p>I have completed courses in Deep Learning, Artificial Intelligence, and Computer Vision. Currently learning more about interpretability and representation learning.</p>
-  </section>
+  <h2 id="courses">Course</h2>
+  <p>
+    I have taken courses in Artificial Intelligence, Deep Learning, and Computer Vision. I’m
+    especially interested in representation learning and multimodal fusion.
+  </p>
 </body>
 </html>
